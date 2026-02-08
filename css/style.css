@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+}
+
+.main {
+    max-width: 960px;
+    width: 100%;
+}
+
+.h1 {
+    margin: 0;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
+.kojinsyoukai p {
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1d1d1fb2;
+}
+
+.nav {
+    margin-top: 60px;
+}
+
+.menu {
+    width: 363px;
+    font-size: 18px;
+    display: flex;
+    gap: 2px;
+    /* 项目间距 */
+    list-style: none;
+    /* 去掉圆点 */
+    padding: 0;
+    margin: 0;
+    border-radius: 40px;
+    border: 1px solid #D2D2D4;
+    background: #DDDDDF;
+}
+
+.menu a {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button-web {
+    text-decoration: none;
+    color: #1D1D1F;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 40px;
+    border: 1px solid #F8F8F8;
+    background: #FFF;
+    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    transition: background-color 0.2s ease;
+
+}
+
+.button-photo,
+.button-about {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #DDDDDF;
+    transition: background-color 0.4s ease;
+
+}
+
+.button-photo:hover,
+.button-about:hover {
+    background-color: #a4a5a6;
+}
+
+.button-web-a {
+    color: #1D1D1F;
+}
+
+.button-photo-a,
+.button-about-a {
+    color: #666666;
+}
+
+.button-photo-a:hover,
+.button-about-a:hover {
+    color: #f2f2f2;
+}
+
+.sakuhin-a-link {
+    display: block;
+    /* 让 a 包住整个块 */
+    text-decoration: none;
+    /* 去掉下划线 */
+    color: inherit;
+    /* 文字颜色继承 */
+}
+.sakuhin-a-link:hover figure img {
+  transform: translateY(-3px);
+}
+
+.sakuhin-a-link figure img {
+  transition: transform 0.3s ease;
+}
+
+.sakuhin {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+.figure img {
+    border-radius: 40px;
+}
+
+.figcaption {
+    margin-top: 20px;
+}
+
+.sakuhin-a {
+    border-radius: 40px;
+    width: 470px;
+}
+
+.sakuhin-h3 {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+.sakuhin-h2 {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+.sakuhin-p {
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+.sakuhin-b {
+
+    border-radius: 40px;
+    height: 380px;
+    width: 470px;
+    background-color: #0000000a;
+}
