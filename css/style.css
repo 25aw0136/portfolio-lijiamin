@@ -56,7 +56,10 @@ body {
     text-decoration: none;
 }
 
-.button-design {
+/* ======================================================================== */
+
+
+.page-design .button-design {
     text-decoration: none;
     color: #1D1D1F;
     padding-left: 34px;
@@ -72,8 +75,8 @@ body {
 
 }
 
-.button-photo,
-.button-about {
+.page-design .button-photo,
+.page-design .button-about {
     padding-left: 34px;
     padding-right: 34px;
     padding-top: 8px;
@@ -84,24 +87,185 @@ body {
 
 }
 
-.button-photo:hover,
-.button-about:hover {
+.page-design .button-photo:hover,
+.page-design .button-about:hover {
     background-color: #a4a5a6;
 }
 
-.button-design-a {
+.page-design .button-design-a {
     color: #1D1D1F;
 }
 
-.button-photo-a,
-.button-about-a {
+.page-design .button-photo-a,
+.page-design .button-about-a {
     color: #666666;
 }
 
-.button-photo-a:hover,
-.button-about-a:hover {
+.page-design .button-photo-a:hover,
+.page-design .button-about-a:hover {
     color: #f2f2f2;
 }
+
+
+
+
+/* ======================================================================== */
+
+
+
+
+.page-photo .button-photo {
+    text-decoration: none;
+    color: #1D1D1F;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 40px;
+    border: 1px solid #F8F8F8;
+    background: #FFF;
+    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+.page-photo .button-photo-a {
+    color: #1D1D1F;
+}
+
+
+.page-photo .button-design {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #DDDDDF;
+    transition: background-color 0.4s ease;
+}
+
+
+
+.page-photo .button-design,
+.page-photo .button-about {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #DDDDDF;
+    transition: background-color 0.4s ease;
+
+}
+
+.page-photo .button-design:hover,
+.page-photo .button-about:hover {
+    background-color: #a4a5a6;
+}
+
+.page-photo .button-design-a {
+    color: #1D1D1F;
+}
+
+.page-photo .button-design-a,
+.page-photo .button-about-a {
+    color: #666666;
+}
+
+.page-photo .button-design-a:hover,
+.page-photo .button-about-a:hover {
+    color: #f2f2f2;
+}
+
+
+/* ======================================================================== */
+
+
+.page-about .button-about {
+    text-decoration: none;
+    color: #1D1D1F;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 40px;
+    border: 1px solid #F8F8F8;
+    background: #FFF;
+    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+.page-about .button-about-a {
+    color: #1D1D1F;
+}
+
+
+.page-about .button-design {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #DDDDDF;
+    transition: background-color 0.4s ease;
+}
+
+
+
+.page-about .button-design,
+.page-about .button-photo {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #DDDDDF;
+    transition: background-color 0.4s ease;
+
+}
+
+.page-about .button-design:hover,
+.page-about .button-photo:hover {
+    background-color: #a4a5a6;
+}
+
+.page-about .button-design-a {
+    color: #1D1D1F;
+}
+
+.page-about .button-design-a,
+.page-about .button-photo-a {
+    color: #666666;
+}
+
+.page-about .button-design-a:hover,
+.page-about .button-photo-a:hover {
+    color: #f2f2f2;
+}
+
+
+
+
+
+/* ======================================================================== */
+
+
+
+
+
+
+
+
+
+
+
 
 .sakuhin-link {
     display: block;
