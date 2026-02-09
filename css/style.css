@@ -6,14 +6,15 @@ body {
 }
 
 .main {
-    max-width: 960px;
+    max-width: 1000px;
+    height: 1700px;
     width: 100%;
 }
 
 .h1 {
     margin: 0;
     margin-top: 40px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -21,7 +22,7 @@ body {
 }
 
 .kojinsyoukai p {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 16px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 300;
@@ -29,12 +30,13 @@ body {
     color: #1d1d1fb2;
 }
 
+
 .nav {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .menu {
-    width: 363px;
+    width: 354px;
     font-size: 18px;
     display: flex;
     gap: 2px;
@@ -54,12 +56,12 @@ body {
     text-decoration: none;
 }
 
-.button-web {
+.button-design {
     text-decoration: none;
     color: #1D1D1F;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
     padding-bottom: 10px;
     background-color: rgb(237, 237, 237);
     border-radius: 40px;
@@ -72,9 +74,9 @@ body {
 
 .button-photo,
 .button-about {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
     padding-bottom: 10px;
     border-radius: 40px;
     background-color: #DDDDDF;
@@ -87,7 +89,7 @@ body {
     background-color: #a4a5a6;
 }
 
-.button-web-a {
+.button-design-a {
     color: #1D1D1F;
 }
 
@@ -101,7 +103,7 @@ body {
     color: #f2f2f2;
 }
 
-.sakuhin-a-link {
+.sakuhin-link {
     display: block;
     /* 让 a 包住整个块 */
     text-decoration: none;
@@ -109,18 +111,20 @@ body {
     color: inherit;
     /* 文字颜色继承 */
 }
-.sakuhin-a-link:hover figure img {
-  transform: translateY(-3px);
+
+.sakuhin-link:hover figure img {
+    transform: translateY(-3px);
 }
 
-.sakuhin-a-link figure img {
-  transition: transform 0.3s ease;
+.sakuhin-link figure img {
+    transition: transform 0.3s ease;
 }
 
 .sakuhin {
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 60px;
 }
 
 figure {
@@ -128,12 +132,15 @@ figure {
 }
 
 .figure img {
+    height: auto;
     border-radius: 40px;
 }
 
 .figcaption {
     margin-top: 20px;
 }
+
+
 
 .sakuhin-a {
     border-radius: 40px;
@@ -175,9 +182,28 @@ figure {
 }
 
 .sakuhin-b {
-
     border-radius: 40px;
-    height: 380px;
     width: 470px;
-    background-color: #0000000a;
+
+}
+
+.sakuhin-c {
+    border-radius: 40px;
+    width: 470px;
+}
+
+.sakuhin-d {
+    border-radius: 40px;
+    width: 470px;
+}
+
+
+
+.footer {
+    margin-top: 180px;
+    font-size: 12px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
 }
