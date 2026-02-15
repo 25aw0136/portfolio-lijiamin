@@ -1,3 +1,7 @@
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================design-star============================= */
+
 body {
     margin: 0;
     display: flex;
@@ -7,7 +11,6 @@ body {
 
 .main {
     max-width: 1000px;
-    height: 1700px;
     width: 100%;
 }
 
@@ -22,8 +25,7 @@ body {
 }
 
 .syousai-pc {
-
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 16px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 300;
@@ -43,7 +45,7 @@ body {
 
 
 .nav {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .menu {
@@ -358,6 +360,82 @@ figure {
     font-style: normal;
     color: #1d1d1f;
 }
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================design-end============================= */
+
+
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================about-star============================= */
+.page-about .part-c {
+    margin-top: 50px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.about-part-a,
+.about-part-b,
+.about-part-c {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 28px;
+}
+
+.about-part-a-time {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+.about-part-a-h2 {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+.about-part-a-setumei {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
+
+
+
+
+
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================about-end============================= */
+
+
+
 
 
 
@@ -676,6 +754,7 @@ figure {
 
 
 
+
 /* ============================ Mobile (≤ 810px) ========================== */
 /* ======================================================================== */
 /* ======================================================================== */
@@ -700,10 +779,11 @@ figure {
 
     }
 
-    .h1{
-        margin-top: 20px;
+    .h1 {
+        margin-top: 28px;
         font-size: 48px;
     }
+
     .part {
         padding-left: 20px;
         padding-right: 20px;
@@ -742,7 +822,7 @@ figure {
 
     .sakuhin-h2 {
         font-size: 16px;
-        margin-top: -2px;
+        margin-top: 0px;
     }
 
     .sakuhin {
