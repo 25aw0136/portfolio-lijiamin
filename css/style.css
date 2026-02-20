@@ -766,7 +766,6 @@ figure {
 .saito-img {
     width: 100%;
     border-radius: 40px;
-
 }
 
 .saito-v1-blog,
@@ -784,13 +783,78 @@ figure {
 /* ======================================================================== */
 /* ================================saitosekkei-end============================= */
 
+/* ======================================================================== */
+/* =======================photo-enildettod-star============================ */
+.page-enildettod {
+    background-color: #FFF;
+
+}
+
+.blog-photo-ENILDETTOD {
+    margin-top: 10%;
+}
+
+.blog-photo-g img {
+    width: 50%;
+}
+
+.enildettod-look1,
+.enildettod-look2,
+.enildettod-look3,
+.enildettod-look4,
+.enildettod-look5,
+.enildettod-look6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ENILDETTOD-look7,
+.ENILDETTOD-look8 {
+    width: 100%;
+}
+
+/* ======================================================================== */
+/* =======================photo-enildettod-end============================ */
+
+/* ======================================================================== */
+/* =======================photo-BLOOMNICOLE-star============================ */
+.page-bloomnicole {
+    background-color: #FFF;
+
+}
+
+.blog-photo-BLOOMNICOLE {
+    margin-top: 10%;
+}
+
+.blog-photo-BLOOMNICOLE-g img {
+    width: 48%;
+}
+
+.BLOOMNICOLE-look1,
+.BLOOMNICOLE-look2,
+.BLOOMNICOLE-look4,
+.BLOOMNICOLE-look5,
+.BLOOMNICOLE-look6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    margin-bottom: 4%;
+
+}
+
+.BLOOMNICOLE-look3,
+.BLOOMNICOLE-look7,
+.BLOOMNICOLE-look8 {
+    width: 100%;
+    margin-bottom: 4%;
+}
 
 
 
 
-
-
-
+/* ======================================================================== */
+/* =======================photo-BLOOMNICOLE-end============================ */
 
 /* ============================ Mobile (≤ 810px) ========================== */
 /* ======================================================================== */
@@ -1057,15 +1121,6 @@ figure {
 
     }
 
-
-
-
-
-
-
-
-
-
     .saito-img {
         width: 100%;
         border-radius: 34px;
@@ -1077,6 +1132,48 @@ figure {
         width: 100%;
         border-radius: 34px;
     }
+
+    /* ======================================================================== */
+    /* =============================kojiki-m-end=========================== */
+
+    /* ======================================================================== */
+    /* =======================photo-enildettod-m-star============================ */
+    .blog-photo-g img {
+        width: 100%;
+    }
+
+    /* ======================================================================== */
+    /* =======================photo-enildettod-m-end============================ */
+
+
+    /* ======================================================================== */
+    /* =======================photo-BLOOMNICOLE-m-star============================ */
+    .blog-photo-BLOOMNICOLE-g img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .BLOOMNICOLE-look1,
+    .BLOOMNICOLE-look2,
+    .BLOOMNICOLE-look4,
+    .BLOOMNICOLE-look5,
+    .BLOOMNICOLE-look6 {
+        margin-bottom: 0px;
+    }
+
+    .BLOOMNICOLE-look3,
+    .BLOOMNICOLE-look7,
+    .BLOOMNICOLE-look8 {
+
+        margin-bottom: 40px;
+    }
+
+    /* ======================================================================== */
+    /* =======================photo-BLOOMNICOLE-m-end============================ */
+
+
+
+
 
 
 }
