@@ -393,7 +393,7 @@ figure {
 /* ======================================================================== */
 /* ================================about-star============================= */
 .page-about .part-c {
-    margin-top: 50px;
+    margin-top: 38px;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column;
@@ -709,6 +709,7 @@ figure {
     background-color: #F4EFEF;
 
 }
+
 .page-kojiki .main {
     max-width: 1000px;
     width: 100%;
@@ -775,6 +776,7 @@ figure {
     background-color: #C58586;
 
 }
+
 .page-saitosekkei .main {
     max-width: 1000px;
     width: 100%;
@@ -991,8 +993,8 @@ figure {
     }
 
     .h1 {
-        margin-top: 10px;
-        font-size: 48px;
+        margin-top: 4px;
+        font-size: 38px;
     }
 
     .part {
@@ -1009,13 +1011,13 @@ figure {
         margin-top: 0px;
         font-size: 14px;
         font-family: "Zen Kaku Gothic New", sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-style: normal;
         color: #1d1d1fb2;
     }
 
     .nav {
-        margin-top: 40px;
+        margin-top: 26px;
     }
 
     .figure img {
@@ -1038,6 +1040,7 @@ figure {
 
     .sakuhin {
         row-gap: 30px;
+        margin-top: 20px;
 
     }
 
