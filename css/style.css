@@ -27,7 +27,7 @@ body {
 .icon-pc {
     margin-top: 40px;
     display: block;
-    width: 25%;
+    width: 19%;
     border-radius: 40px;
 }
 
@@ -688,19 +688,62 @@ figure {
     padding-bottom: 100px;
 }
 
-/* ======================================================================== */
-/* ======================================================================== */
+
 /* ======================================================================== */
 /* ==============================zenkikadai-end=========================== */
 
 
+/* ======================================================================== */
+/* =========================nihonshitsugen-star=========================== */
 
+
+
+.page-nihonshitsugen {
+    background-color: #B1CD9A;
+}
+
+
+.page-nihonshitsugen .main {
+    max-width: 1000px;
+    height: 2200px;
+    width: 100%;
+
+}
+
+
+.shitsugen-img-1 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.nipponshitsugen-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
+.shitsugen-tp-phone {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 40px;
+}
 
 
 
 
 /* ======================================================================== */
-/* ======================================================================== */
+/* =========================nihonshitsugen-star=========================== */
+
+
+
+
+
 /* ======================================================================== */
 /* ================================kojiki-star============================= */
 
@@ -982,7 +1025,7 @@ figure {
     }
 
     .icon-phone {
-        margin-top: 24px;
+        margin-top: 20px;
         display: block;
         width: 25%;
         border-radius: 28px;
