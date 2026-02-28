@@ -64,7 +64,7 @@ body {
 /* ================================button-star============================= */
 
 a {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav {
@@ -762,11 +762,18 @@ figure {
     color: #1D1D1F;
 }
 
+.shitsugen-scroll {
+    width: 35%;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
 
 
 
 /* ======================================================================== */
-/* =========================nihonshitsugen-star=========================== */
+/* =========================nihonshitsugen-end=========================== */
 
 
 
@@ -1098,6 +1105,7 @@ figure {
 
     .sakuhin-p {
         font-size: 12px;
+        margin-top: 6px;
     }
 
     .sakuhin-h3 {
@@ -1121,7 +1129,9 @@ figure {
         font-size: 15px;
     }
 
-
+    .figcaption {
+        margin-top: 14px;
+    }
 
     .page-design .button-design {
         padding-left: 30px;
@@ -1358,6 +1368,46 @@ figure {
 
     /* ======================================================================== */
     /* =======================photo-shujing-m-end============================ */
+
+
+
+
+
+
+    /* ======================================================================== */
+    /* =======================nihonshitsugen-m-star============================ */
+
+    .shitsugen-scroll {
+        width: 70%;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .logo-figure img {
+        border-radius: 34px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ======================================================================== */
+    /* =======================nihonshitsugen-m-end============================ */
+
 
 
 
