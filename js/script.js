@@ -19,3 +19,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.querySelector(".auto-video");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // 尝试播放
+        const playPromise = video.play();
+
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            console.log("Autoplay was prevented");
+
+            // 如果被拦截，添加一次用户交互监听
+            document.addEventListener("click", () => {
+              video.play();
+            }, { once: true });
+          });
+        }
+
+      } else {
+        video.pause();
+      }
+    });
+  }, {
+    threshold: 0.5  // 50%进入画面才播放
+  });
+
+  observer.observe(video);
+});
